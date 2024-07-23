@@ -6,6 +6,9 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 25px;
     background-color: white;
@@ -23,6 +26,7 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     border-radius: 20%;
+    float: left;
 }
 
 .centered {
@@ -30,3 +34,4 @@ img {
     top: 50%;
     left: 20%;
 }
+
