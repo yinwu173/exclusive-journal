@@ -17,3 +17,16 @@ body {
     background-color: black;
     color: white;
 }
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
