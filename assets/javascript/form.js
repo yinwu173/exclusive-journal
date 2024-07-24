@@ -17,6 +17,10 @@ submitBtn.addEventListener('click', function (event) {
     // in order to store in local storage, it needs to be simple data type so we used JSON
     // sets submission to local storage
     localStorage.setItem('blogDetail', JSON.stringify(blogDetail));
+
+
+    // when submit button is clicked, it will redirect me to the blog page
+    window.location.href = 'blog.html'
 });
 
 
