@@ -27,6 +27,7 @@ img {
     flex-direction: column;
     border-radius: 20%;
     float: left;
+    width: 700px;
 }
 
 .centered {
@@ -45,7 +46,7 @@ main {
     align-items: start;
     flex-direction: column;
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
     flex: 0 0 auto;
 }
 
