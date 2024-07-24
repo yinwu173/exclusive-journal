@@ -35,3 +35,17 @@ img {
     left: 20%;
 }
 
+main {
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#input-box {
+    align-items: start;
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+    flex: 0 0 auto;
+}
+
