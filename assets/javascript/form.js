@@ -14,7 +14,8 @@ submitBtn.addEventListener('click', function (event) {
         title: title.value,
         content: content.value,
     };
-    // in order to stor in local storage, it needs to be simple data type so we used JSON
+    // in order to store in local storage, it needs to be simple data type so we used JSON
+    // sets submission to local storage
     localStorage.setItem('blogDetail', JSON.stringify(blogDetail));
 });
 
@@ -22,6 +23,6 @@ submitBtn.addEventListener('click', function (event) {
 
 
 
-// step 3: cuntion one, take in the inputs and localStorage.setItem(). Once down, need to flow
-// to next function whichis another page - blog page (redirected). In the same function, a rule: if
+// step 3: Function one, take in the inputs and localStorage.setItem(). Once down, need to flow
+// to next function which is another page - blog page (redirected). In the same function, a rule: if
 // empty "return" - prompted with an alert.
