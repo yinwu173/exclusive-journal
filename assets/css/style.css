@@ -41,7 +41,7 @@ main {
     padding: 20px;
 }
 
-#input-box {
+#text-input {
     align-items: start;
     flex-direction: column;
     display: flex;

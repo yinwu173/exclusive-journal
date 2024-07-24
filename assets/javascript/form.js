@@ -1,12 +1,22 @@
 // step 1: global variables will go here, targeting the inputs and the button
+const textInput = document.querySelector('#text-input');
+const submitBtn = document.querySelector('#submit');
 
 
 
 
+// step 2: create event listener for the submit button, listener sends to function one
+submitBtn.addEventListener('click', function (event) {
+    event.preventDefault();
 
-
-// step 2: create even listener, listener sends to function one
-
+    const blogDetail = {
+        username: username.value,
+        title: title.value,
+        content: content.value,
+    };
+    // in order to stor in local storage, it needs to be simple data type so we used JSON
+    localStorage.setItem('blogDetail', JSON.stringify(blogDetail));
+});
 
 
 
