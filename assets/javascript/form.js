@@ -29,6 +29,11 @@ textInput.addEventListener('submit', function (event) {
         content: content,
     };
 
+    // step 3: store inputs to local storage
+    const storedBlogDetail = JSON.parse(localStorage.getItem('storedBlogDetail')) = [];
+    // adds to the original array
+    storedBlogDetail.push('blogDetail');
+
     // in order to store in local storage, it needs to be simple data type so we used JSON
     // sets submission to local storage
     localStorage.setItem('blogDetail', JSON.stringify(blogDetail));
