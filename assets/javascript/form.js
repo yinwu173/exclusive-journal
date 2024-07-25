@@ -7,11 +7,10 @@ const submitBtn = document.querySelector('#submit');
 submitBtn.addEventListener('click', function (event) {
     event.preventDefault();
 
-    const blogDetail = {
-        username: username.value,
-        title: title.value,
-        content: content.value,
-    };
+    // get the input values
+    const username = document.getElementById('username').value;
+    const title = document.getElementById('title').value;
+    const content = document.getElementById('content').value;
 
     // check if any of the forms are empty
     if (!username || !title || !content) {
