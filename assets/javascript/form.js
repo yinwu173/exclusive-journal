@@ -4,20 +4,13 @@ const submitBtn = document.querySelector('#submit');
 
 
 // step 2: create event listener for the submit button, listener sends to function one
-submitBtn.addEventListener('click', function (event) {
+textInput.addEventListener('submit', function (event) {
     event.preventDefault();
 
     // get the input values
-    const blogDetail = {
-        username: username.value,
-        title: title,
-        content: content.value,
-    };
-
-    // get the input values
-    //const username = document.getElementById('username').value;
-    //const title = document.getElementById('title').value;
-    //const content = document.getElementById('content').value;
+    const username = document.getElementById('username').value;
+    const title = document.getElementById('title').value;
+    const content = document.getElementById('content').value;
 
     // check if any of the forms are empty
     if (!username || !title || !content) {
@@ -28,6 +21,13 @@ submitBtn.addEventListener('click', function (event) {
         alert("Please fill in all sections of the form.");
         return;
     }
+
+    // another object to get the input with values
+    const blogDetail = {
+        username: username,
+        title: title,
+        content: content,
+    };
 
     // in order to store in local storage, it needs to be simple data type so we used JSON
     // sets submission to local storage
