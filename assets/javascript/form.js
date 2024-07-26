@@ -30,11 +30,9 @@ textInput.addEventListener('submit', function (event) {
     };
 
     // step 3: store inputs to local storage
-    
-
-    // in order to store in local storage, it needs to be simple data type so we used JSON
+    // in order to store in local storage, it needs to be simple data type so we use JSON
     // sets submission to local storage
-    localStorage.setItem('blogDetail', JSON.stringify(blogDetail));
+    localStorage.setItem('blogEntries', JSON.stringify(blogDetail));
 
 
     // when submit button is clicked, it will redirect me to the blog page
