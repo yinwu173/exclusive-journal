@@ -2,3 +2,10 @@ nav {
     display: flex;
     flex-direction: row;
 }
+
+footer {
+    font-size: 12px;
+    background-color: lightpink;
+    border-radius: 10px;
+    padding: 10px;
+}
