@@ -52,7 +52,7 @@
 
 * [Alert() Method](https://www.w3schools.com/jsref/met_win_alert.asp)
 
-* Received help from Xpert learning assistant for the code on line 16 of form.js. If the username, title, or content input boxes are left blank, the user will be prompted with an alert. User will not be able to proceed to the next page 
+* Received help from Xpert learning assistant for the code on line 16 of form.js. If the username, title, or content input boxes are left blank, the user will be prompted with an alert. User will not be able to proceed to the next page if any inputs are left blank. 
 
 * [Go Back Button](https://www.w3schools.com/js/tryit.asp?filename=tryjs_history_back) 
 
